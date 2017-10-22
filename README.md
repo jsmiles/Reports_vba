@@ -23,4 +23,5 @@ There are four macros used in this process.
 2. Populates a column with some text that explains the data that we will soon input there
 3. Populates the column to the left of the text colum with data that we require. This is the complicated step as all
 the data calculations are contained within this step
-4. An aggregate function that means
+4. An aggregate function that pulls the other three macros into a single macro. This means you only need to run this
+single aggregate macro (detailed above) and all three will be run. 
